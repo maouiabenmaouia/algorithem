@@ -1,0 +1,21 @@
+ALGORITHM Dot_product 
+VAR
+    vector1,vector2:
+    array_of_integr
+    i,n: INTEGER
+    BEGIN
+    VAR
+    BROCEDURE Result
+    (vector1,vector2)
+BEGIN
+    FOR i FROM 0 TO vector1.Length-1 step 1 Do 
+    ps=
+    vector1[i]*vector2[i]
+    END_FOR
+    IF (ps+0) THEN
+        Write ("orthogonal")
+        else
+        Write ("not orthogonal")  
+          END_IF
+          
+END

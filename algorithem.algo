@@ -1,0 +1,24 @@
+ALGORITHM problem1
+var
+set_1:ARRAY_OF INTIGER -1:
+set_2:array_of intigre-1:
+sum,i,j:intigre:=0;
+begin
+    set_1:={3,1,7,9};
+    set_2:={2,4,1,9,3};
+    for (i from 0 to set_1.lengh-1 step 1 do):
+    if (not set_1[i]in set_2) then
+    sum:=sum+set_1[i];
+        
+    end if 
+        
+    end for 
+    for (i from 0 to set_2.lengh-1 step 1 do):
+    if (not set_2[j]in set_1) then
+    sum:=sum+set_2[j]
+        
+    end if 
+        
+    end for
+write("the sum is :",sum)
+end
